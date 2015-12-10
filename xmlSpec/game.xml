@@ -1,0 +1,179 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Ashfaq Sherwa's Project#6</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameMax>200</frameMax>
+<username>asherwa</username>
+
+<view>
+  <width>900</width>
+  <height>600</height>
+</view>
+
+<world>
+  <width>1200</width>
+  <height>600</height>
+</world>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+<textPositioning>
+  <secondsLocation x="10" y="20"/>
+  <fpsLocation x="10" y="40"/>
+  <playerMovementLocation x="10" y="60"/>
+  <toggleHUDLocation x="10" y="80"/> 
+  <restartGameLocation x="10" y="100"/>
+  <godModeLocation x="10" y="120"/>
+  <bulletListLocation x="10" y="140"/>
+  <freeListLocation x="10" y="160"/>
+</textPositioning>
+
+<hudDetails>
+  <hudLocation x="8" y="8"/>
+  <hudDimensions x="280" y="180"/>
+  <healthLocation x="680" y="575"/>
+  <healthDimensions x="200" y="14"/>
+  <healthIncrement>2</healthIncrement>
+  <healthInterval>1000</healthInterval>
+  <healthDeltaTime>0</healthDeltaTime>
+</hudDetails>
+
+<clock>
+  <frameCap>60</frameCap>
+  <framesAreCapped>true</framesAreCapped>
+  <adjustmentFactor>1.0</adjustmentFactor>
+</clock>
+
+<backBuilding>
+  <file>images/backBuilding.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>3</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1200</width>
+  <height>600</height>
+  <transparency>false</transparency>
+</backBuilding>
+
+<frontBuilding>
+  <file>images/frontBuilding.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>3</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1200</width>
+  <height>600</height>
+  <transparency>false</transparency>
+</frontBuilding>
+
+<poles>
+  <file>images/poles.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1200</width>
+  <height>600</height>
+  <transparency>false</transparency>
+</poles>
+
+<road>
+  <file>images/road.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1200</width>
+  <height>600</height>
+  <transparency>false</transparency>
+</road>
+
+
+<rocket>
+  <file>images/rocket.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <cushion> 0.0 </cushion>
+  <chunk>
+    <size>9</size>
+    <distance>200</distance>
+    <spinAngle>0</spinAngle>
+  </chunk>
+  <scale min = "0.15" max = "2.5"/>
+  <numberOfRockets>25</numberOfRockets>
+  <src x = "0" y = "0"/>
+  <loc x = "500" y = "10"/>
+  <width>65</width>
+  <height>40</height>
+  <startLoc x="320" y="240"/>
+  <speed x = "200" y = "10"/>
+  <speedX>-200</speedX>
+  <speedY>200</speedY>
+  <yLimit>150</yLimit>
+  <transparency>true</transparency>
+</rocket>
+
+<worldback>
+  <file>images/building.png</file>
+  <red>205</red>
+  <green>100</green>
+  <blue>50</blue>
+  <factor>3</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1200</width>
+  <height>600</height>
+  <transparency>false</transparency>
+</worldback>
+
+<player>
+  <file>images/player.png</file>
+  <src x="0" y="0"/>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>90</width>
+  <height>100</height>
+  <startLoc x="400" y="460"/>
+  <speed x="550" y="450"/>
+  <speedX>550</speedX>
+  <speedY>450</speedY>
+  <bulletName>bullet</bulletName>
+  <bulletInterval>200</bulletInterval>
+  <minBulletSpeed>200</minBulletSpeed>
+  <transparency>true</transparency>
+</player>
+
+<bullet>
+  <file>images/bullet.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>30</width>
+  <height>40</height>
+  <maxDistance>500</maxDistance>
+  <spinAngle>0</spinAngle>
+  <startLoc x="0" y="0"/>
+  <speed x="400" y="100"/>
+  <speedX>400</speedX>
+  <speedY>100</speedY>
+  <transparency>true</transparency>
+</bullet>
+
+</GameData>

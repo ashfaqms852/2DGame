@@ -1,0 +1,18 @@
+Name:Ashfaq Sherwa
+Clemson Email Address: ashfaqms852@gmail.com
+
+
+Game Description:
+This game is called "Shoot them all". The game reaches to conclusion when the player's health goes down to zero. Till then he has to
+shoot as many rockets as he can. If he shoots the player by bullet then the score is incremented by one point. And if the player himself
+collides with rocket, the score is incremented by 5 points. The points that the player accumulates before his health goes down is his final score.
+
+Image sources:
+Bullet image: https://morganlbusse.files.wordpress.com/2011/09/bullet1.jpg 
+Rocket sprite: http://1.bp.blogspot.com/-siKMnTg6i1k/TxoF5feuXBI/AAAAAAAAAE0/QnsGu-GbfSs/s72-c/rocket-md.png
+Player image: http://3.bp.blogspot.com/-jGC08Dy0zg8/U405cNq1-MI/AAAAAAAABqU/38d5rmV1S8Y/s1600/redfighter0006.png
+
+Audio Sources: http://soundbible.com/royalty-free-sounds-1.html
+               http://www.orangefreesounds.com
+
+Note: My game video doesn't works with some media player, but with VLC its works perfectly fine. I have tested it on VLC media player.
