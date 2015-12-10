@@ -1,6 +1,8 @@
 Name:Ashfaq Sherwa
-Clemson Email Address: ashfaqms852@gmail.com
+Email Address: ashfaqms852@gmail.com
 
+Technologies Used: 
+C++, Simple Direct Media Layer (SDL), OpenGL, MVC, Flyweight, Factory and Object Pooling design patterns
 
 Game Description:
 This game is called "Shoot them all". The game reaches to conclusion when the player's health goes down to zero. Till then he has to
